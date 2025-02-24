@@ -189,4 +189,12 @@
 
 * Crie um ambiente virtual para isolar o projeto e evitar conflitos de dependências com outros projetos existentes.
 
+    * **Windows**:
+        * Para criar: **python -m venv venv**
+        * Para ativar: **venv\Scripts\Activate.ps1**
+
+    * **MacOS/Linux**: 
+        * Para criar: **python -m venv venv**
+        * Para ativar: **source venv/bin/activate**
+
 * Instale todas as bibliotecas utilizadas no projeto, que estão listadas no arquivo **requeriments.txt**. Isso pode ser feito de forma simples utilizando o comando **pip install -r requirements.txt** no terminal.
